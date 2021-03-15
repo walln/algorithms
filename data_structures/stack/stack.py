@@ -20,6 +20,9 @@ class Stack:
     def contains(self, val):
         return val in self.stack
 
+    def empty(self):
+        return len(self.stack) != 0
+
 
 if __name__ == "__main__":
     s = Stack()
